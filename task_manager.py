@@ -19,7 +19,7 @@ invalid_response = "I'm sorry. I don't enderstand your response.\nPlease try aga
 
 task_response = input(open_question).lower()
 
-while task_response == "view" or "edit":
+while task_response == "view" or "add" or "complete":
 
   if task_response == "view"
     print(task_list)
